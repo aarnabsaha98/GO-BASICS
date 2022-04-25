@@ -22,10 +22,10 @@ type Author struct {
 	Lastname  string `json:"lastname"`
 }
 
+//DB
 var books []Book
 
 //functions
-
 func getBooks(w http.ResponseWriter, r *http.Request) {
 
 	w.Header().Set("Content-Type", "application/json")
