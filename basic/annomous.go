@@ -3,6 +3,10 @@ package main
 import "fmt"
 
 func main() {
+
+}
+
+func Annonomous() {
 	//Annonomous function
 	for i := 0; i < 6; i++ {
 		func(i int) {
